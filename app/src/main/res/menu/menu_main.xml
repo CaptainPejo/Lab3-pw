@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pl.test123.lab3_pw.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Log_In"
+        android:orderInCategory="100"
+        android:title="@string/Log_In"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Aparat"
+        android:orderInCategory="100"
+        android:title="@string/Aparat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Item3"
+        android:orderInCategory="100"
+        android:title="@string/Item3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Item4"
+        android:orderInCategory="100"
+        android:title="@string/Item4"
+        app:showAsAction="never" />
+
+</menu>
