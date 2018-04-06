@@ -27,5 +27,4 @@
         android:orderInCategory="100"
         android:title="@string/Item4"
         app:showAsAction="never" />
-
 </menu>

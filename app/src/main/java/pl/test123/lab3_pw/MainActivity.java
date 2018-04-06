@@ -91,7 +91,25 @@ public class MainActivity extends AppCompatActivity {
     public void iconChange(){
         Random r = new Random();
         int rand = r.nextInt(4);
-        
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        switch(rand){
+            case 0:
+                fab.setImageDrawable(getResources().getDrawable(R.drawable.apple, getTheme()));
+                break;
+            case 1:
+                fab.setImageDrawable(getResources().getDrawable(R.drawable.camera, getTheme()));
+                break;
+            case 3:
+                fab.setImageDrawable(getResources().getDrawable(R.drawable.chleb, getTheme()));
+                break;
+            case 4:
+                fab.setImageDrawable(getResources().getDrawable(R.drawable.banan, getTheme()));
+                break;
+
+        }
+
+
     }
 
     @Override

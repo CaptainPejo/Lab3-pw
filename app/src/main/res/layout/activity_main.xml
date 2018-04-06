@@ -30,4 +30,28 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_input_get" />
 
+    <item
+        android:id="@+id/iconBanan"
+        android:icon="@drawable/banan"
+        android:title=""
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/iconCamera"
+        android:icon="@drawable/camera"
+        android:title=""
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/iconChleb"
+        android:icon="@drawable/chleb"
+        android:title=""
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/iconApple"
+        android:icon="@drawable/apple"
+        android:title=""
+        app:showAsAction="never" />
+
+
 </android.support.design.widget.CoordinatorLayout>
